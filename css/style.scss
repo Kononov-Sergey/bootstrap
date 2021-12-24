@@ -416,3 +416,20 @@ a {
     font-weight: 600;
   }
 }
+
+.contact {
+  h1 {
+    margin: 12px;
+  }
+
+  i {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  &__top {
+    padding-top: 120px;
+  }
+}
+.text_contact {
+  min-width: none;
+}
