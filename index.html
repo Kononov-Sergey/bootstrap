@@ -18,24 +18,19 @@
    <header class="menu-bar my-5">
       <div class="container">
          <div class="row">
-            <div class="col-xl-2">
+            <div class="logo-row col-md-4 col-sm-12">
                <a class="logo" href="">Logo</a>
             </div>
-            <div class="col-xl-8 ms-auto">
+            <div class="col-md-8 col-sm-12 ms-auto">
                <nav>
-                  <ul class="menu d-flex justify-content-end">
+                  <ul class="menu d-md-flex d-sm-block justify-content-end">
                      <li class="menu__item "><a href="#">Home</a></li>
                      <li class="menu__item"><a href="#">About</a></li>
                      <li class="menu__item"><a href="#">Servising</a></li>
                      <li class="menu__item"><a href="#">Portfolio</a></li>
                      <li class="menu__item"><a href="#">Blog</a></li>
                      <li class="menu__item"><a href="#">Contact us</a></li>
-                     <li class="menu__item"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                              fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                              <path
-                                 d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
-                           </svg></a>
-                     </li>
+                     
                   </ul>
                </nav>
             </div>
@@ -197,24 +192,27 @@
                   dolore
                   excepturi molestiae quidem ea cumque repellendus totam, tenetur, accusamus error unde eius.
                </p>
-               <button class="works__btn btn_active" filter="all">All</button>
-               <button class="works__btn" filter="web">Web design</button>
-               <button class="works__btn" filter="UI">UI/UX design</button>
-               <button class="works__btn" filter="mu">Mockups</button>
+               <div class="works__btn-section">
+                  <button class="works__btn btn_active" filter="all">All</button>
+                  <button class="works__btn" filter="web">Web design</button>
+                  <button class="works__btn" filter="UI">UI/UX design</button>
+                  <button class="works__btn" filter="mu">Mockups</button>
+               </div>
+               
             </div>
          </div>
-         <div class="works__cards row text-center">
-            <div class="works__card col-xl-4 web"> <img class="" src="./img/item-6.png" alt="">
+         <div class="works__cards d-flex row text-center">
+            <div class="works__card col-xl-4 col-md-6 col-sm-12 web"> <img class="" src="./img/item-6.png" alt="">
             </div>
-            <div class="works__card col-xl-4 UI"><img class="" src="./img/item-2.png" alt="">
+            <div class="works__card col-xl-4 col-md-6 col-sm-12 UI"><img class="" src="./img/item-2.png" alt="">
             </div>
-            <div class="works__card col-xl-4 web"><img class="rounded mx-1 d-block" src="./img/item-3.png" alt="">
+            <div class="works__card col-xl-4 col-md-6 col-sm-12 web"><img src="./img/item-3.png" alt="">
             </div>
-            <div class="works__card col-xl-4 UI"><img class="rounded mx-1 d-block" src="./img/item-4.png" alt="">
+            <div class="works__card col-xl-4 col-md-6 col-sm-12 UI"><img src="./img/item-4.png" alt="">
             </div>
-            <div class="works__card col-xl-4 mu"><img class="rounded mx-1 d-block" src="./img/item-5.png" alt="">
+            <div class="works__card col-xl-4 col-md-6 col-sm-12 mu"><img src="./img/item-5.png" alt="">
             </div>
-            <div class="works__card col-xl-4 mu"><img class="rounded mx-1 d-block" src="./img/item-6.png" alt="">
+            <div class="works__card col-xl-4 col-md-6 col-sm-12 mu"><img src="./img/item-6.png" alt="">
             </div>
          </div>
          <div class="row text-center">
@@ -234,7 +232,7 @@
             </div>
          </div>
          <div class="row plan__cards text-center">
-            <div class="plan-card col-xl-4">
+            <div class="plan-card col-xl-4 col-sm-12">
                <div class="plan-card__top">
                   <h2>Free Trail</h2>
                   <sup>$</sup>00<sub>per month</sub>
@@ -249,7 +247,7 @@
                </div>
                <button class="plan-card__btn">order now</button>
             </div>
-            <div class="plan-card col-xl-4">
+            <div class="plan-card col-xl-4 col-sm-12">
                <div class="plan-card__top">
                   <h2>Free Trail</h2>
                   <sup>$</sup>00<sub>per month</sub>
@@ -264,7 +262,7 @@
                </div>
                <button class="plan-card__btn">order now</button>
             </div>
-            <div class="plan-card col-xl-4">
+            <div class="plan-card  col-xl-4 col-sm-12">
                <div class="plan-card__top">
                   <h2>Free Trail</h2>
                   <sup>$</sup>00<sub>per month</sub>
@@ -416,7 +414,7 @@
             </div>
 
             <div class="news-content row col-xl-12 text-start ">
-               <img class="news-content__img col-xl-6 " src="./img/blog_img.png" alt="">
+               <img class="news-content__img col-xl-6 d-xl-block d-none " src="./img/blog_img.png" alt="">
                <div class="news-content__inner col-xl-6 ">
                   <div class="news-content__title">
                      SEO Quis Vestibulum
@@ -460,11 +458,11 @@
                      asperiores rerum maiores ab laboriosam!
                   </div>
                </div>
-               <img class="news-content__img col-xl-6 " src="./img/blog_img.png" alt="">
+               <img class="news-content__img col-xl-6 d-xl-block d-none " src="./img/blog_img.png" alt="">
             </div>
 
             <div class="news-content row col-xl-12 text-start ">
-               <img class="news-content__img col-xl-6 " src="./img/blog_img.png" alt="">
+               <img class="news-content__img col-xl-6 d-xl-block d-none" src="./img/blog_img.png" alt="">
                <div class="news-content__inner col-xl-6 ">
                   <div class="news-content__title">
                      SEO Quis Vestibulum
